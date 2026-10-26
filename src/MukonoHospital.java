@@ -75,6 +75,7 @@ class Nurse extends MedicalStaff {
         this.ward = ward;
     }
 
+    //Returns the nurse role.
     @Override
     public String getRole() { return "Nurse (Ward: " + ward + ")"; }
 
