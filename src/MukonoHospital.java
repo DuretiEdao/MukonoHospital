@@ -57,7 +57,7 @@ class Doctor extends MedicalStaff {
         super(id, name, department, hours);
         this.specialization = specialization;
     }
-
+//Returns the doctor role.
     @Override
     public String getRole() { return "Doctor (" + specialization + ")"; }
 
