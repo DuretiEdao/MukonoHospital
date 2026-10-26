@@ -97,6 +97,7 @@ class Pharmacist extends MedicalStaff {
     }
 }
 
+//LabTechnician class: handles laboratory duties.
 class LabTechnician extends MedicalStaff {
     private final String labType;
 
