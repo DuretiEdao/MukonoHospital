@@ -131,6 +131,7 @@ public class MukonoHospital {
 
         System.out.println("===== MUKONO HOSPITAL STAFF SYSTEM =====\n");
 
+        //Loop through all staff members.
         for (MedicalStaff staff : staffList) {
             staff.displayInfo();   // inherited common behaviour
             staff.startShift();    // each subclass performs its own duties
