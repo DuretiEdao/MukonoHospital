@@ -49,6 +49,7 @@ abstract class MedicalStaff {
 }
 
 // ---------- Specialized subclasses ----------
+// Doctor class: handles doctor duties.
 class Doctor extends MedicalStaff {
     private final String specialization;
 
