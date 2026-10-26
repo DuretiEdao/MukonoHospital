@@ -66,6 +66,7 @@ class Doctor extends MedicalStaff {
     }
 }
 
+//Nurse class: handles nursing duties.
 class Nurse extends MedicalStaff {
     private final String ward;
 
