@@ -83,6 +83,7 @@ class Nurse extends MedicalStaff {
     }
 }
 
+//Pharmacist class: handles pharmacy duties.
 class Pharmacist extends MedicalStaff {
     public Pharmacist(String id, String name, String department, int hours) {
         super(id, name, department, hours);
