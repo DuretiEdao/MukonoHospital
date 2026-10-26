@@ -106,6 +106,7 @@ class LabTechnician extends MedicalStaff {
         this.labType = labType;
     }
 
+    // Returns the lab technician role
     @Override
     public String getRole() { return "Laboratory Technician (" + labType + ")"; }
 
