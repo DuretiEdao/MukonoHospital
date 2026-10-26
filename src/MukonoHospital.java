@@ -89,6 +89,7 @@ class Pharmacist extends MedicalStaff {
         super(id, name, department, hours);
     }
 
+    // Returns the pharmacist role.
     @Override
     public String getRole() { return "Pharmacist"; }
 
