@@ -115,6 +115,7 @@ class LabTechnician extends MedicalStaff {
 }
 
 // ---------- Main class ----------
+//Main class: runs the program.
 public class MukonoHospital {
     public static void main(String[] args) {
 
